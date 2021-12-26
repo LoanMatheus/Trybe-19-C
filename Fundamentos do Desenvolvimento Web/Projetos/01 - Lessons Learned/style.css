@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(223 213 167);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+header li {
+  padding: 0 2em;
+  font-size: 1.5em;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(106 111 183);
+}
+
+#titulo {
+  color: rgb(187 57 57);
+  font-family: fantasy;
+}
+
+main {
+  background-color: rgb(193 255 201);
+  display: block;
+  padding-bottom: 10px;
+}
+
+#apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto1 {
+  width: 15%;
+  border: black 1px solid;
+  margin: 6em 10% 0;
+  flex: 0 0 41.667%;
+  max-width: 15.667%;
+}
+
+table {
+  margin-top: 5em;
+  flex: 0 0 41.667%;
+  max-width: 41.667%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.meio {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(60 94 83);
+}
+
+#licoes {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.lado-direito {
+  background-color: aliceblue;
+  padding: 18px 52px;
+  border-radius: 36px;
+  box-shadow: 0 0 5px 1px rgb(131 131 131);
+}
+
+.lado-esquerdo {
+  background-color: aliceblue;
+  padding: 18px 52px;
+  border-radius: 36px;
+  box-shadow: 0 0 5px 1px rgb(131 131 131);
+}
+
+footer {
+  background-color: rgb(223 213 167);
+  padding: 2em;
+}
+
+#rodape {
+  letter-spacing: 2px;
+}
