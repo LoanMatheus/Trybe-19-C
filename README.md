@@ -6,7 +6,7 @@ The web development training program from Trybe has a workload of 1500 hours tha
 
 The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git, among others languages and frameworks.
 
-## Introdução - Desenvolvimento Web :white_check_mark:
+## Introdução - Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -45,7 +45,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [ ] 5-4: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-5: _[Projeto - Carta Misteriosa]()_
 
-## Desenvolvimento Front-end :white_check_mark:
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 6: Introdução - Front-end
 
