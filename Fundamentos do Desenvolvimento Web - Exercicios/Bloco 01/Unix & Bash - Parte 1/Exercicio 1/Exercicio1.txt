@@ -1,0 +1,79 @@
+$/ mkdir unix_tests
+
+$/ cd unix_tests/
+
+$/unix_tests$ touch trybe.txt
+
+$/unix_tests$ cp trybe.txt trybe_backup.txt
+
+$/unix_tests$ mv trybe.txt trybe1.txt
+
+$/unix_tests$ ls
+trybe1.txt  trybe_backup.txt
+
+$/unix_tests$ mkdir backup
+
+$/unix_tests$ mv trybe
+trybe1.txt        trybe_backup.txt  
+
+$/unix_tests$ mv trybe
+trybe1.txt        trybe_backup.txt  
+
+$/unix_tests$ mv trybe_backup.txt backup/
+
+$/unix_tests$ ls
+backup  trybe1.txt
+
+$/unix_tests$ ls backup
+trybe_backup.txt
+
+$/unix_tests$ mkdir backup2
+
+$/unix_tests$ mv backup/trybe_backup.txt backup2
+
+$/unix_tests$ ls backup2
+trybe_backup.txt
+
+$/unix_tests$ ls backup
+
+$/unix_tests$ rm -rf backup
+
+$/unix_tests$ mv backup2 backup
+
+$/unix_tests$ pwa
+
+$/unix_tests$ pwd
+/home/loan/Trybe/Fundamentos do Desenvolvimento Web/Bloco 01/Unix & Bash - Parte 1/Exercicio 1/unix_tests
+
+$/unix_tests$ ls
+backup  trybe1.txt
+
+$/unix_tests$ ls -a
+.  ..  backup  trybe1.txt
+
+$/unix_tests$ rm -rf backup/
+
+$/unix_tests$ ls
+trybe1.txt
+
+$/unix_tests$ clear
+
+$/ touch skills.txt
+
+$/unix_tests$ head -5 skills.txt 
+Internet
+Unix
+Bash
+HTML
+CSS
+
+$/unix_tests$ tail -5 skills.txt 
+HTML
+CSS
+JavaScript
+React
+SQL
+
+$/unix_tests$ rm *.txt
+
+$/unix_tests$ ls
