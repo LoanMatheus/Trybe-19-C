@@ -25,36 +25,37 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - Lessons Learned]()_
+- [x] 3-5: _[Projeto - Lessons Learned](https://github.com/LoanMatheus/Trybe-19-C/tree/main/Fundamentos%20do%20Desenvolvimento%20Web/Projetos/01%20-%20Lessons%20Learned)_
 
-##### Bloco 4: Introdução - JavaScript
+##### Bloco 4 - Introdução à JavaScript e Lógica de Programação
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
-- [x] 4-3: _JavaScript - Objetos e funções_
-- [ ] 4-4: _JavaScript - DOM e seletores_
-- [ ] 4-5: _JavaScript - Trabalhando com elementos_
-- [ ] 4-6: _JavaScript - Eventos_
-- [ ] 4-7: _JavaScript - Web Storage_
+- [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_ 
+- [x] 4-4: _JavaScript - Objetos e funções_
+- [x] 4-5: _[Playground Functions](https://github.com/LoanMatheus/Trybe-19-C/tree/main/Fundamentos%20do%20Desenvolvimento%20Web/Projetos/02%20-%20Playground%20Functions) 
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _[Projeto - Meme Generator]()_
-- [ ] 5-2: _[Projeto - Arte com Pixels]()_
-- [ ] 5-3: _[Projeto - Lista de tarefas]()_
-- [ ] 5-4: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-5: _[Projeto - Carta Misteriosa]()_
+- [ ] 5-1: _JavaScript - DOM e seletores_ 
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
+- [ ] _[Projeto - Arte com Pixels]()_
+- [ ] _[Projeto - Lista de tarefas]()_
+- [ ] Bônus: _[Projeto - Meme Generator]()_
+- [ ] Bônus: _[Projeto - Adivinhe a Cor]()_
+- [ ] Bônus: _[Projeto - Carta Misteriosa]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
-
-##### Bloco 6: Introdução - Front-end
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [ ] 6-1: _HTML & CSS - Forms_
 - [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [ ] 6-6: _[Projeto - Trybewarts]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -83,6 +84,8 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [ ] 10-1: _Jest - Testes Assíncronos_
 - [ ] 10-2: _Jest - Simulando comportamentos_
 - [ ] 10-3: _[Projeto - Jest Assíncrono e Mocking]()_
+
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
