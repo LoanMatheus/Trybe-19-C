@@ -5,19 +5,20 @@ Quantas vezes a palavras apareceu no total.
 Quantas vezes ela apareceu em cada linha.
 Em quais linhas ela apareceu. */
 
-let lista = [];
-let search = "";
+let lista = ['Messias, 123 Teste', 'Messias AAA', 'MESSIAS Mssias messias Messias Messias Messias Messias Messias, exercicio feito', 'Sem palavra pra encontrar'];
+let search = "Messias";
 
 let linhas = [];
 let xTotalLinha = [];
 let xTotalArray = 0;
 
 for (let i = 0; i < lista.length; i += 1) {
-  let palavras = lista[i].split(" ");
+  var re = ',|.|:|.\\s';
+  let palavras = lista[i].split(",|,\\s");
   let linha = 0;
   let xTotalNaLinha = 0;
   for (let j = 0; j < palavras.length; j += 1) {
-    if (palavras[j] === search) {
+    if (palavras[j].toLowerCase() === search.toLowerCase()) {
       xTotalNaLinha += 1;
       linha = 1 + i;
       xTotalArray += 1;
