@@ -13,12 +13,11 @@ let xTotalLinha = [];
 let xTotalArray = 0;
 
 for (let i = 0; i < lista.length; i += 1) {
-  var re = ',|.|:|.\\s';
-  let palavras = lista[i].split(",|,\\s");
+  let palavras = lista[i].split(" ");
   let linha = 0;
   let xTotalNaLinha = 0;
   for (let j = 0; j < palavras.length; j += 1) {
-    if (palavras[j].toLowerCase() === search.toLowerCase()) {
+    if (palavras[j] === search) {
       xTotalNaLinha += 1;
       linha = 1 + i;
       xTotalArray += 1;
